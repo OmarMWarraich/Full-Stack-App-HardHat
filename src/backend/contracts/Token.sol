@@ -16,7 +16,6 @@ contract Token {
     owner = msg.sender;
   }
 
-  
   function transfer(address to, uint256 amount) external {
     console.log("Sender balance is %s tokens", balances[msg.sender]);
     console.log("Trying to send %s tokens to %s", amount, to);
@@ -27,4 +26,9 @@ contract Token {
     balances[to] += amount;
 
   }
+
+  function balanceOf(address account) external view returns (uint256) {
+    return balances[account];
+  }
+
 }
