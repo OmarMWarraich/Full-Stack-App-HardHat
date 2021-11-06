@@ -1,7 +1,7 @@
+import React, { Component } from 'react';
 import TokenAddress from '../contractsData/contract-address.json'
 import TokenArtifacts from '../contractsData/Token.json'
 import { Button } from "react-bootstrap";
-import React, { Component } from 'react';
 import { ethers } from "ethers";
 import logo from './logo.png';
 
