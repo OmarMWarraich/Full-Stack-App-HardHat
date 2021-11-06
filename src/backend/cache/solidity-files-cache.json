@@ -2,8 +2,8 @@
   "_format": "hh-sol-cache-2",
   "files": {
     "/home/omar/Documents/bmu_hardhat_ethers-master/src/backend/contracts/Token.sol": {
-      "lastModificationDate": 1636233991785,
-      "contentHash": "2a08556ca3de0d7fa841f608b7fcbf9d",
+      "lastModificationDate": 1636234703705,
+      "contentHash": "61a274790ec1923b23039bc371d693bc",
       "sourceName": "src/backend/contracts/Token.sol",
       "solcConfig": {
         "version": "0.7.3",
