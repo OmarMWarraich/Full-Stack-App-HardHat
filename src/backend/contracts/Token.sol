@@ -10,4 +10,11 @@ contract Token {
   uint256 public totalSupply = 1000000;
   address public owner;
   mapping(address => uint256) balances;
+
+  constructor() {
+    balances[msg.sender] = totalSupply;
+    owner = msg.sender;
+  }
+
+  }
 }
