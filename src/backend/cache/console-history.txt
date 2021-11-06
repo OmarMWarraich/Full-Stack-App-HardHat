@@ -1,0 +1,4 @@
+.exit
+hardhatToken.address
+hardhatToken = await Token.deploy();
+Token = await ethers.getContractFactory("Token");
